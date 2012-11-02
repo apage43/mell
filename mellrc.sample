@@ -1,0 +1,10 @@
+;; -*- mode: clojure; -*-
+; vim: ft=clojure
+{:mail {:store {:protocol "imaps"}
+        :transport {:protocol "smtps"}
+        :smtp {:host "smtp.gmail.com"
+               :auth "true"
+               :starttls.enable "true"}
+        :host "imap.gmail.com"
+        :user "me@gmail.com"
+        :password "password"}}
